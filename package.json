@@ -1,0 +1,27 @@
+{
+  "name": "list-object",
+  "version": "0.0.0",
+  "description": "Create an object from a list of [key, value] tuples",
+  "keywords": [
+    "array",
+    "object"
+  ],
+  "homepage": "https://github.com/zertosh/list-object",
+  "licence": "MIT",
+  "author": "Andres Suarez <zertosh@gmail.com>",
+  "main": "list-object.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zertosh/list-object.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
